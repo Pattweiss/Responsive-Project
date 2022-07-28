@@ -96,3 +96,24 @@ p {
 img {
   max-width: 250px;
 }
+@media (max-width: 760px) {
+  h1 {
+    display: none;
+  }
+  h3 {
+    padding-top: 50px;
+  }
+  #principal-page-foto {
+    display: none;
+  }
+  .navigation-links {
+    margin-top: 0px;
+  }
+  .texto-yoga {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
+  }
+}
