@@ -3,7 +3,9 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+body {
+  margin: 130px 30px;
+}
 h1,
 h2,
 h3 {
@@ -97,11 +99,8 @@ img {
   max-width: 250px;
 }
 @media (max-width: 760px) {
-  h1 {
-    display: none;
-  }
-  h3 {
-    padding-top: 50px;
+  .principal-title {
+    font-size: 45px;
   }
   #principal-page-foto {
     display: none;
