@@ -108,6 +108,9 @@ img {
   .principal-title {
     font-size: 45px;
   }
+  #about {
+    font-size: 60px;
+  }
   #principal-page-foto {
     display: none;
   }
