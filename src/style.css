@@ -6,6 +6,9 @@
 body {
   margin: 130px 30px;
 }
+.wrappin-title {
+  background-color: var(--secondary-color);
+}
 h1,
 h2,
 h3 {
@@ -55,21 +58,15 @@ img {
   text-transform: capitalize;
 }
 
-.contact-link {
+.homepage-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
-
-.about-link {
+.homepage-link:hover {
+  background: var(--secondary-color);
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
 }
 
 .email-link {
