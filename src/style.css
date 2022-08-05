@@ -32,6 +32,10 @@ p {
   line-height: 1.5;
   text-align: left;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .about-me-p {
   background: var(--secondary-color);
   text-align: center;
@@ -95,9 +99,11 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-img {
-  max-width: 250px;
+
+.about-me-container-to-style {
+  background-color: var(--secondary-color);
 }
+
 @media (max-width: 760px) {
   .principal-title {
     font-size: 45px;
@@ -115,4 +121,8 @@ img {
     display: block;
     text-align: center;
   }
+}
+#selfie-foto {
+  border: 7px solid white;
+  margin: 15px;
 }
