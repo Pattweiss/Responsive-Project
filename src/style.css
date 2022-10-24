@@ -3,16 +3,16 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-body {
-  margin: 130px 30px;
-}
-.wrappin-title {
-  background-color: var(--secondary-color);
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
 }
 h1,
 h2,
 h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   text-align: center;
   margin: 0;
 }
