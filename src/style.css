@@ -2,6 +2,8 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font: "Playfair Display", serif;
+  --deafault-font: "Poppins", sans-serif;
 }
 
 .hero {
@@ -11,10 +13,23 @@
 }
 h1,
 h2,
-h3 {
-  font-family: "Playfair Display", serif;
+h3,
+.hero p {
+  font-family: var(--heading-font);
   text-align: center;
   margin: 0;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-family: var(--deafault-font);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
 }
 
 h1 {
@@ -31,7 +46,7 @@ h3 {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: --deafault-font;
 
   border-radius: 4px;
   font-size: 18px;
@@ -56,7 +71,7 @@ img {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -92,7 +107,7 @@ img {
 
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 30px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -128,4 +143,7 @@ img {
 #selfie-foto {
   border: 7px solid white;
   margin: 15px;
+}
+#about {
+  margin-top: 40px;
 }
