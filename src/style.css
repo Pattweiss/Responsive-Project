@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 64px;
 }
 
 h3 {
@@ -106,15 +106,16 @@ img {
 }
 
 .primary-link {
-  border-radius: 4px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
   padding: 15px 30px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+  border: 1px solid var(--primary-color);
 }
-
+.primary-link:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
 .about-me-container-to-style {
   background-color: var(--secondary-color);
 }
