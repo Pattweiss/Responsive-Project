@@ -118,6 +118,10 @@ img {
   background-color: var(--secondary-color);
 }
 
+.projects-page h1 {
+  font-size: 60px;
+  margin-top: 80px;
+}
 @media (max-width: 760px) {
   .principal-title {
     font-size: 45px;
