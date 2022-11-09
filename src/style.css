@@ -122,6 +122,9 @@ img {
   font-size: 60px;
   margin-top: 80px;
 }
+#projects-display {
+  margin-top: 40px;
+}
 @media (max-width: 760px) {
   .principal-title {
     font-size: 45px;
@@ -165,7 +168,7 @@ img {
   }
 }
 @media (min-width: 992px) {
-  p {
+  .aboutme p {
     font-size: 25px;
     margin-top: 30px;
   }
