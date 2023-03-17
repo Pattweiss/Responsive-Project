@@ -57,6 +57,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+footer {
+  font-size: 9px;
+  margin: 20px 10px 10px;
+  font-family: "Courier New", Courier, monospace;
+}
 .paragraph-about-me {
   padding: 3%;
 }
